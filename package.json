@@ -1,6 +1,7 @@
 {
   "name": "react-vis-styles",
-  "version": "0.1.2",
+  "description": "react vis styles in js",
+  "version": "0.2.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "scripts": {
@@ -17,9 +18,7 @@
     "@emotion/core": "^10.0.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.3",
-    "@babel/plugin-transform-runtime": "^7.2.0",
-    "babel-preset-zkit": "^0.1.5",
+    "babel-preset-zkit": "^0.2.2",
     "rollup": "^1.2.1",
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^9.2.0",
@@ -28,5 +27,13 @@
   "peerDependencies": {
     "react": "^16.8.2",
     "react-dom": "^16.8.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangzuo/react-vis-styles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangzuo/react-vis-styles/issues"
+  },
+  "homepage": "https://code.swiftcarrot.com/react-vis-styles/"
 }
