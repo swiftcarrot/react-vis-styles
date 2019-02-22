@@ -57,6 +57,12 @@ import {
 } from 'react-vis-styles';
 ```
 
+with props
+
+```javascript
+<LegendsStyle enabledColor="#3a3a48" disabledColor="#b8b8b8" />
+```
+
 ### License
 
 MIT
