@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/dm/react-vis-styles.svg)](https://www.npmjs.com/package/react-vis-styles)
 [![Build Status](https://travis-ci.org/wangzuo/react-vis-styles.svg?branch=master)](https://travis-ci.org/wangzuo/react-vis-styles)
 [![codecov](https://codecov.io/gh/wangzuo/react-vis-styles/branch/master/graph/badge.svg)](https://codecov.io/gh/wangzuo/react-vis-styles)
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Greenkeeper badge](https://badges.greenkeeper.io/wangzuo/react-vis-styles.svg)](https://greenkeeper.io/)
 
 react-vis styles as component
 
