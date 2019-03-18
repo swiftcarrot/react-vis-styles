@@ -6,7 +6,8 @@
   "module": "dist/index.esm.js",
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
-    "prepublishOnly": "npm run build"
+    "test": "jest --coverage",
+    "prepublishOnly": "npm test && npm run build"
   },
   "files": [
     "dist"
@@ -18,7 +19,13 @@
     "@emotion/core": "^10.0.9"
   },
   "devDependencies": {
+    "babel-jest": "^24.5.0",
     "babel-preset-zkit": "^0.3.1",
+    "jest": "^24.5.0",
+    "prettier": "^1.16.4",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-test-renderer": "^16.8.4",
     "rollup": "^1.6.0",
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^9.2.1",
