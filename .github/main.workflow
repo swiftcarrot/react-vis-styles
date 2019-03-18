@@ -1,9 +1,27 @@
-workflow "publish on release" {
+workflow "Build, Test, and Publish" {
   on = "push"
-  resolves = ["publish"]
+  resolves = ["Publish"]
 }
 
-action "publish" {
+action "Build" {
+  uses = "actions/npm@master"
+  args = "install"
+}
+
+action "Test" {
+  needs = "Build"
+  uses = "actions/npm@master"
+  args = "test"
+}
+
+action "Tag" {
+  needs = "Test"
+  uses = "actions/bin/filter@master"
+  args = "tag"
+}
+
+action "Publish" {
+  needs = "Tag"
   uses = "actions/npm@master"
   args = "publish"
   secrets = ["NPM_AUTH_TOKEN"]
