@@ -10,9 +10,7 @@
     "test": "jest --coverage",
     "prepublishOnly": "npm test && npm run build"
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "author": "Wang Zuo <wzuoadjusted@gmail.com> (https://wangzuo.me)",
   "license": "MIT",
   "dependencies": {
@@ -43,5 +41,5 @@
   "bugs": {
     "url": "https://github.com/wangzuo/react-vis-styles/issues"
   },
-  "homepage": "https://code.swiftcarrot.com/react-vis-styles/"
+  "homepage": "https://swiftcarrot.dev/react-vis-styles/"
 }

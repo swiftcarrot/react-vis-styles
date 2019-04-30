@@ -16,7 +16,7 @@ yarn add react-vis-styles
 
 ### Demo
 
-[https://code.swiftcarrot.com/react-vis-styles](https://code.swiftcarrot.com/react-vis-styles)
+[https://swiftcarrot.dev/react-vis-styles](https://swiftcarrot.dev/react-vis-styles)
 
 ### Usage
 
