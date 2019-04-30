@@ -1,7 +1,7 @@
 {
   "name": "react-vis-styles",
   "description": "react vis styles in js",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "sideEffects": false,
@@ -10,7 +10,9 @@
     "test": "jest --coverage",
     "prepublishOnly": "npm test && npm run build"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "author": "Wang Zuo <wzuoadjusted@gmail.com> (https://wangzuo.me)",
   "license": "MIT",
   "dependencies": {
