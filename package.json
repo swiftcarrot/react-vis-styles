@@ -38,10 +38,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangzuo/react-vis-styles.git"
+    "url": "git+https://github.com/swiftcarrot/react-vis-styles.git"
   },
   "bugs": {
-    "url": "https://github.com/wangzuo/react-vis-styles/issues"
+    "url": "https://github.com/swiftcarrot/react-vis-styles/issues"
   },
   "homepage": "https://swiftcarrot.dev/react-vis-styles/"
 }
