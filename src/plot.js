@@ -55,12 +55,12 @@ const PlotStyle = ({
       }
 
       .rv-xy-plot__grid-lines__line {
-        stroke: $rv-xy-plot-axis-line-color;
+        stroke: ${axisLineColor};
       }
 
       .rv-xy-plot__circular-grid-lines__line {
         fill-opacity: 0;
-        stroke: $rv-xy-plot-axis-line-color;
+        stroke: ${axisLineColor};
       }
 
       .rv-xy-plot__series,
@@ -96,8 +96,8 @@ const PlotStyle = ({
         background: ${tooltipBackground};
         color: ${tooltipColor};
         font-size: ${tooltipFontSize};
-        padding: $rv-xy-plot-tooltip-padding;
-        box-shadow: $rv-xy-plot-tooltip-shadow;
+        padding: ${tooltipPadding};
+        box-shadow: ${tooltipShadow};
       }
 
       .rv-crosshair__inner--left {
